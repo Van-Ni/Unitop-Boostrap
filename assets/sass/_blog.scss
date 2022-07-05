@@ -1,0 +1,53 @@
+#blog {
+  & p,
+  & h3 {
+    margin-bottom: 0;
+  }
+  .card-body {
+    padding-bottom: 0;
+  }
+  & .card {
+margin-bottom: 3rem;
+  }
+}
+#blog .blog {
+  &__cat {
+    font-size: 1.1rem;
+    color: #313131;
+  }
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #141414;
+    padding: 1.4rem 0;
+    display: block;
+    cursor: pointer;
+  }
+  &__date {
+    font-size: 1.4rem;
+    color: #6c757d;
+    margin-bottom: 1.6rem;
+  }
+  &__desc {
+    line-height: 1.4;
+    font-size: 1.4rem;
+    color: #343434;
+    padding-bottom: 5.4rem;
+  }
+}
+.button__see-more {
+  a {
+    text-decoration: none;
+    padding: 1rem 5rem;
+    font-size: 1.4rem;
+    color:#585858;
+    border: 2px #eeeeee solid;
+    margin-top: 1.8rem;
+    margin-bottom: 6.2rem;
+    transition:all 0.2s linear;
+    &:hover{
+      background: $primary-color;
+      color:#fff;
+    }
+  }
+}

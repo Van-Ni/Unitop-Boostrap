@@ -1,0 +1,15 @@
+#banner{
+    & .carousel-indicators li{
+        width: 44px;
+        height: 4px;
+        border: 0;
+        background: #282828;
+    }
+    & .carousel-indicators li.active{
+        background: $primary-color;
+
+    }
+    & .carousel-indicators{
+        margin-bottom: 3rem;
+    }
+}
